@@ -38,6 +38,11 @@ tmtags
 /*.sublime-project
 *.sublime-workspace
 
+## Vim
+.*.sw[a-z]
+*.un~
+Session.vim
+
 # Archives
 # based on https://github.com/github/gitignore
 *.7z
@@ -73,3 +78,19 @@ tmtags
 Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+
+# SCMs
+
+## CVS
+/CVS/*
+*/CVS/*
+.cvsignore
+*/.cvsignore
+
+## SVN
+.svn/
+
+## mercurial
+/.hg/*
+*/.hg/*
+.hgignore
