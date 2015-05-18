@@ -21,7 +21,7 @@ local.properties
 .buildpath
 
 ## Netbeans
-nbproject/private/
+nbproject/
 build/
 nbbuild/
 dist/
@@ -42,6 +42,9 @@ tmtags
 .*.sw[a-z]
 *.un~
 Session.vim
+
+## PHPStorm
+.idea/
 
 # Archives
 # based on https://github.com/github/gitignore
@@ -94,3 +97,11 @@ $RECYCLE.BIN/
 /.hg/*
 */.hg/*
 .hgignore
+
+## git
+!**/.gitkeep
+
+## PHP
+composer.lock
+vendor/
+
