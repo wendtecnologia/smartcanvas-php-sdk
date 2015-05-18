@@ -1,0 +1,96 @@
+# Editor & IDEs
+# based on https://github.com/github/gitignore
+
+## Eclipse
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.buildpath
+
+## Netbeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+## TextMate
+*.tmproj
+*.tmproject
+tmtags
+
+## SublimeText
+/*.sublime-project
+*.sublime-workspace
+
+## Vim
+.*.sw[a-z]
+*.un~
+Session.vim
+
+# Archives
+# based on https://github.com/github/gitignore
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.xz
+*.lzma
+
+## packing-only formats
+*.iso
+*.tar
+
+## package management formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+
+# Random OS
+
+## OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+## Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# SCMs
+
+## CVS
+/CVS/*
+*/CVS/*
+.cvsignore
+*/.cvsignore
+
+## SVN
+.svn/
+
+## mercurial
+/.hg/*
+*/.hg/*
+.hgignore
