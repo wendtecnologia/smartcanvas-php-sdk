@@ -16,4 +16,5 @@ class CardTest extends \PHPUnit_Framework_TestCase
         $this->assertInstanceOf('SmartCanvas\Card', $this->card);
     }
 
+
 }
