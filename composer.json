@@ -1,0 +1,25 @@
+{
+    "name": "wendtecnologia/smartcanvas-php-sdk",
+    "description": "Smart Canvas PHP SDK",
+    "type": "Library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Walker de Alencar",
+            "email": "walkeralencar@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "SmartCanvas\\": ["src/", "tests/"]
+        }
+    },
+
+    "require": {
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    }
+}
