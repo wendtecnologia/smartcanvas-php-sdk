@@ -10,10 +10,10 @@ class ClientTest extends \PHPUnit_Framework_TestCase
 
     public function testHttpClient()
     {
-        $this->objectHasAttribute('httpClient');
+        $this->assertObjectHasAttribute('httpClient', $this);
         $this->assertNull($this->httpClient);
         $this->assertInstanceOf('GuzzleHttp\Client', $this->getHttpClient());
         $this->assertNotNull($this->httpClient);
-
     }
+
 }
